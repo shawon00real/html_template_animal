@@ -1,0 +1,248 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Global css*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/*Header section*/
+.header-section{
+    background: #daac00;
+}
+.header-section li{
+    font-size: 22px;
+    margin-left: 30px;    
+}
+.header-section li a{
+    color: #ffffff;
+}
+
+
+/*Banner section*/
+.banner-section{
+    padding: 40px 0px;
+    background: #fcc302;
+}
+.banner-section h1{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 60px;
+    padding: 10px 330px 10px 0px;
+}
+.banner-section p{
+    color: #fff;
+    padding: 20px 280px 20px 0px;
+    font-size: 22px;
+}
+.banner-section button{
+    padding: 15px 22px;
+    color: #fff;
+    border: none;
+    background: #00bec9;
+    border-radius: 3px;
+}
+.banner-section .btn{
+    padding: 13px 21px;
+    background: #fcc302;
+    border-radius: 0px;
+    border: 2px solid;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+/*Service section */
+.service-section{
+    padding: 100px 0px;
+    background: #fff;
+}
+.service-section h1{
+    font-size: 45px;
+    padding: 20px 30px 20px 0px;
+    margin-top: 80px;
+    font-weight: 600;
+}
+.service-section p{
+    font-size: 20px;
+    padding: 10px 196px 20px 0px;
+}
+.service-section button{
+    padding: 15px 22px;
+    background: #fcc302;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 18px;
+    border: navajowhite;
+    border-radius: 3px;
+}
+.service-section img{
+    width: 90%;
+}
+
+/*Title section*/
+.title-section{
+    padding: 40px 0px;
+    background: #fcc302;
+}
+.title-section .header h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px
+}
+.title-section .header p{
+    text-align: center;
+    padding: 20px 393px;
+    font-size: 22px;
+    color: #fff;
+}
+.title-section .one img{
+    margin: 0 auto;
+    display: block;
+    border: 5px solid white;
+}
+.title-section .one h3{
+    text-align: center;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.title-section .one p{
+    text-align: center;
+    padding: 0px 86px;
+    color: #fff;
+    margin-top: 16px;
+}
+
+/*Team section*/
+.team-section{
+   padding: 40px 0px;
+}
+.team-section .header h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #313243;
+    margin-top: 20px
+}
+.team-section .header p{
+    text-align: center;
+    padding: 20px 318px;
+    font-size: 24px;
+    color: #313243;
+    font-weight: 500;
+}
+.team-section .one img{
+    margin: 0 auto;
+    display: block;
+}
+.team-section .one h3{
+    text-align: center;
+    color: #313243;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.team-section .one p{
+    text-align: center;
+    padding: 0px 86px;
+    color: #313243;
+    font-size: 18px;
+}
+
+/*Counter section*/
+.counter-section{
+    padding: 100px 0px;
+    background: url(../img/icon-background.png);
+    background-size: cover;
+}
+.counter-section img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 80px;
+}
+.counter-section h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.counter-section p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*Footer section*/
+.footer-section{
+    padding-top: 50px;
+    background: #343434;
+    color: #fff;
+}
+.footer-section h6{
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 34px;
+    line-height: 30px;
+}
+.footer-section p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.footer-section p span{
+    display: block;
+    font-weight: 300;
+    padding: 2px 0px;
+    font-size: 16px;
+}
+.footer-section h5{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 84px 516px 54px;
+    letter-spacing: 2px;
+}
+
+
+/*Mobile Device*/
+@media (min-width: 320px) and (max-width: 576px){
+    .header-section img{width: 80%;}
+    .banner-section h1 {margin-top: 25px;color: #fff;font-size: 30px;padding: 0px 0px 0px 0px; text-align: center;}
+    .banner-section p {color: #fff;padding: 15px 0px 15px 0px;text-align: center;font-size: 16px;}
+    .banner-section button {padding: 10px 17px;color: #fff;border: none;margin-left: 16px; background: #00bec9;border-radius: 3px;}
+    .banner-section .btn {padding: 10px 15px; background: #fcc302; border-radius: 0px; border: 2px solid; margin-left: 10px;border-radius: 3px;}
+    .banner-section img{width: 100%; margin-top: 20px;}
+    .service-section h1 {font-size: 30px;text-align: center;padding: 0px 0px 0px 0px;margin-top: 0px;font-weight: 600;}
+    .service-section p {font-size: 20px;padding: 25px 23px;text-align: center;}
+    .service-section button{padding: 10px 15px; margin-bottom: 40px;margin: 0px auto 34px;display: block;}
+    .service-section img { width: 100%;}
+    .title-section .header h1{font-size: 30px;}
+    .title-section .header p {text-align: center;padding: 20px 0px;font-size: 18px;color: #fff;}
+    .title-section .one img{width: 100%;}
+    .title-section .one h3{font-size: 24px; margin-top: 18px;}
+    .title-section .one p {text-align: center;padding: 0px 40px;color: #fff;margin-top: 16px;margin: 10px 0px 40px;}
+    .team-section .header h1{font-size: 30px;}
+    .team-section .header p {text-align: center;padding: 20px 20px 30px 20px;font-size: 18px;color: #313243; font-weight: 500;}
+    .team-section .one img {width: 100%;}
+    .team-section .one h3{margin-top: 18px; font-size: 22px;}
+    .team-section .one p {text-align: center;padding: 0px 0px;color: #313243;font-size: 17px;margin-bottom: 50px;}
+    .counter-section{padding: 0px 0px 50px;}
+    .counter-section h3{font-size: 24px; margin-top: 36px;}
+    .counter-section img { margin: 0 auto;display: block;margin-top: 30px;width: 20%;}
+    .counter-section p{font-size: 16px;}
+    .footer-section h6 {font-size: 16px; font-weight: 300; padding-right: 0px;line-height: 27px;text-align: center;margin-bottom: 40px;}
+    .footer-section p {margin-bottom: 50px;font-size: 20px;text-align: center;}
+    .footer-section h5 {font-size: 14px; font-weight: 300;margin: 0px 0px 20px;letter-spacing: 2px;text-align: center;}
+
+}
